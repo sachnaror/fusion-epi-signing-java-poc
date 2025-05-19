@@ -1,7 +1,7 @@
 
-# 🔐 EPI Outbound Request Signing (Java + Spring Boot)
+# 🔐 EPI Outbound Request Signing (Using Vault/Gov rule cert)
 
-This project demonstrates **secure, signed outbound requests** from **Axway Fusion** (simulated in Java) to a mock **EPI `/payments` API**. It showcases:
+Tried demonstrating and running **secure, signed outbound requests** from *Fusion** (simulated in Java) to a mock **EPI `/payments` API**. It showcases:
 
 - **JWT-based delegation** using `act.sub` (per RFC 7523)
 - **Message-level integrity** using RS256 signatures embedded in a custom header (`X-Signature`)
