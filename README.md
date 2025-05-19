@@ -1,5 +1,5 @@
 
-# 🔐 EPI Outbound Request Signing (Using Vault/Gov rule cert)
+# 🔐 EPI Outbound Request Signing (Using Vault/Gov rule based pvt key signing)
 
 Tried demonstrating and running **secure, signed outbound requests** from *Fusion** (simulated in Java) to a mock **EPI `/payments` API**. It showcases:
 
